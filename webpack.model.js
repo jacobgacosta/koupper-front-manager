@@ -50,7 +50,7 @@ module.exports = function () {
         optimization: isProduction()
             ? {
                 minimizer: [
-                    new TerserPlugin(Config.terser),
+                    new TerserPlugin(),
                     new OptimizeCssAssetsPlugin({
                         cssProcessorPluginOptions: {
                             preset: ['default', { discardComments: { removeAll: true } }]
