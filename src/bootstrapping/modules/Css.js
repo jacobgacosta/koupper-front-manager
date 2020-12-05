@@ -14,9 +14,8 @@ class Css {
                 test: /\.css$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    'style-loader',
                     'css-loader',
-                    'postcss-loader'
+                    'sass-loader'
                 ]
             },
             {
