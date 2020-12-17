@@ -1,6 +1,5 @@
 let TerserPlugin = require('terser-webpack-plugin');
-
-let OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 const path = require('path');
 
@@ -51,11 +50,8 @@ module.exports = function () {
             ? {
                 minimizer: [
                     new TerserPlugin(),
-                    new OptimizeCssAssetsPlugin({
-                        cssProcessorPluginOptions: {
-                            preset: ['default', { discardComments: { removeAll: true } }]
-                        }
-                    })
+                    `...`,
+                    new CssMinimizerPlugin(),
                 ]
             }
             : {},
