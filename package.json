@@ -44,7 +44,8 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.2.0"
+    "webpack-merge": "^5.2.0",
+    "resolve-url-loader": "^3.1.2"
   },
   "repository": {
     "type": "git",
@@ -53,5 +54,5 @@
   "bugs": {
     "url": "https://github.com/jacobgacosta/koupper-front-manager/issues"
   },
-  "homepage": "https://github.com/jacobgacosta/koupper-front-manager#readme"
+  "homepage": "https://github.com/jacobgacosta/koupper-front-manager#readme",
 }
