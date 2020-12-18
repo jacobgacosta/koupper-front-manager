@@ -14,11 +14,12 @@ class File {
                     loader: "file-loader",
                     options: {
                         name: "[name].[ext]",
+                        publicPath: "../imgs",
                         outputPath: "imgs",
                         esModule: false
                     }
                 }
-            }
+            },
         ]
     }
 

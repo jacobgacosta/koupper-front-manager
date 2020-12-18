@@ -25,6 +25,7 @@ module.exports = function () {
             alias: {
                 vue$: "vue/dist/vue.esm.js",
                 '@': `${process.cwd()}/resources`,
+                'assets': `${process.cwd()}/resources/images`
             },
             extensions: ["*", ".js", ".vue", ".json"]
         },
