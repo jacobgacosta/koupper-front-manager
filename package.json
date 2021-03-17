@@ -1,6 +1,6 @@
 {
   "name": "@koupper/front-manager",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "A package to configure the UI dependencies inside a project",
   "main": "webpack.config.js",
   "scripts": {
