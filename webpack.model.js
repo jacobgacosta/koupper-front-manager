@@ -17,7 +17,8 @@ module.exports = function () {
         mode: isProduction() ? 'production' : 'development',
         entry: {},
         output: {
-            chunkFilename: '[name].[hash:5].js'
+            chunkFilename: '[name].[hash:5].js',
+            publicPath: '/'
         },
         module: { rules: [] },
         plugins: [],
